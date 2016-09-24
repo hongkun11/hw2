@@ -6,11 +6,6 @@ function mouseMoved() {
   ellipse(mouseX, mouseY, 50, 50);
    ellipse(mouseX-10, mouseY-10, 10, 10);
     ellipse(mouseX+10, mouseY-10, 10, 10);   
-    arc(mouseX, mouseY+15,30,10,180,350,OPEN)
-   
-
-
-  return false;
+ arc(mouseX, mouseY+15, 15, 10, 0,PI);
+   return false;
 }
-
-mouseX, mouseY
